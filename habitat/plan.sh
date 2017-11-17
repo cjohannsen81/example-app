@@ -1,12 +1,12 @@
 pkg_name=example-app
 pkg_origin=cjohannsen81
-pkg_version="0.1.0"
+pkg_version="0.1.1"
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_license=('Apache-2.0')
-pkg_source="http://some_source_url/releases/${pkg_name}-${pkg_version}.tar.gz"
+# pkg_source="http://some_source_url/releases/${pkg_name}-${pkg_version}.tar.gz"
 # pkg_filename="${pkg_name}-${pkg_version}.tar.gz"
 # pkg_shasum="TODO"
-# pkg_deps=(core/glibc)
+pkg_deps=(core/nginx)
 # pkg_build_deps=(core/make core/gcc)
 # pkg_lib_dirs=(lib)
 # pkg_include_dirs=(include)
